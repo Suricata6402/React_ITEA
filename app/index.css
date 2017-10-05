@@ -1,3 +1,27 @@
 body {
-    background-color: green;
+    font-family: sans-serif;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+}
+
+.languages li {
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clicked {
+    color: red;
 }
