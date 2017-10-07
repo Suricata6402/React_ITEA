@@ -25,3 +25,32 @@ li {
 .clicked {
     color: red;
 }
+
+ul {
+    padding: 0;
+}
+
+.space-list-items {
+    margin-bottom: 7px;
+}
+
+.popular-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.popular-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.popular-rank {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
